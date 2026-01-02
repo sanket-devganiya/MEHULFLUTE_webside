@@ -1,9 +1,9 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEHUL_FLUTE | Soulful Classical Performances</title>
+    <title>| MEHUL_FLUTE |</title>
     
     <!-- Fonts: Playfair Display (Elegant/Serif) & Lato (Clean/Sans) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -696,10 +696,12 @@ form input, form textarea {
             <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#performances">Shows</a></li>
+                <li><a href="#videos">Shows</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#audio">Music</a></li>
+                <li><a href="#testimonials">Audience Love</a></li>
                 <li><a href="#contact">Contact</a></li>
+                
             </ul>
         </div>
     </nav>
@@ -729,16 +731,20 @@ form input, form textarea {
 
                 <div style="margin-bottom: 15px;">
                         <i class="fa-solid fa-leaf" style="color:var(--secondary-gold); margin-right: 10px;"></i> 
-                        <span><b>Concept | Creativity | Classical Fusion</b></span>
+                        <span><b>Creativity | Classical Fusion</b></span>
             </div>
 
- 
+
                     <p>
-                Creaters is a versatile instrumental fusion band known for presenting refreshing and soul-stirring musical experiences. Our performances beautifully blend Indian classical depth with contemporary arrangements, creating music that connects instantly with diverse audiences.
+                Creaters is a versatile instrumental fusion band known for presenting refreshing and soul-stirring 
+                musical experiences. Our performances beautifully blend Indian classical depth with contemporary arrangements,
+                creating music that connects instantly with diverse audiences.
 
                     </p>
                     <p>
-                        Creaters is a versatile instrumental fusion band known for presenting refreshing and soul-stirring musical experiences. Our performances beautifully blend Indian classical depth with contemporary arrangements, creating music that connects instantly with diverse audiences.
+                        Creaters is a versatile instrumental fusion band known for presenting refreshing and soul-stirring musical 
+                        experiences. Our performances beautifully blend Indian classical depth with contemporary arrangements, creating 
+                        music that connects instantly with diverse audiences.
 </p>
                     <!-- <div style="margin-top: 20px;">
                         <i class="fa-solid fa-leaf" style="color:var(--secondary-gold); margin-right: 10px;"></i>
@@ -837,7 +843,7 @@ form input, form textarea {
 
 
 
-                 <!-- Video Card 5 -->
+                 <!-- Video Card 6-->
                 <article class="video-card reveal">
                     <a href="https://www.youtube.com/shorts/oooDPhb09Rc?feature=share" target="_blank" rel="noopener noreferrer" class="video-link">
                         <div class="thumbnail-wrapper">
@@ -853,6 +859,25 @@ form input, form textarea {
                         </div>
                     </a>
                 </article>
+
+                
+                 <!-- Video Card 7 -->
+                <article class="video-card reveal">
+                    <a href=" https://www.youtube.com/@mehuldhandhukiyaflute" target="_blank" rel="noopener noreferrer" class="video-link">
+                        <div class="thumbnail-wrapper">
+                            <img src=" assets/m1.jpg" alt="Performance Video">  
+                            <div class="play-overlay">
+                                <i class="fas fa-play-circle play-btn"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="video-title"> Other concerts & performances
+
+</h3>
+                        </div>
+                    </a>
+                </article>
+
 
             </div>
         </div>
@@ -949,22 +974,6 @@ form input, form textarea {
 <!-- ends YouTube Link Section -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- Gallery Section -->
     <section id="gallery">
         <div class="container">
@@ -1057,7 +1066,7 @@ form input, form textarea {
                 <div class="testimonial-card">
                     <i class="fas fa-quote-left"></i>
                     <p class="testimonial-text">" The music touched our hearts. Every note felt soulful and deeply connected."</p>
-                    <p class="client-name">- Mehul Dhandhukiya - Event Management & Planners
+                    <p class="client-name">- <p>Mehul Dhandhukiya - Event Management & Planners
                     </p>
                 </div>
             </div>
@@ -1156,42 +1165,42 @@ form input, form textarea {
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 <span>MEHUL_FLUTE</span>. All Rights Reserved.</p>
-            <p style="font-size: 0.8rem; margin-top: 5px;">Designed & Developed BY SANKET DEVGANIYA.</p>
-        </div>
+            <p>&copy; 2026 <span><strong>MEHUL_FLUTE</strong></span>. All Rights Reserved.</p>
+<p style="font-size: 0.8rem; margin-top: 5px; color: white;"> <strong>Designed & Developed BY SANKET V DEVGANIYA</strong>.</p>
+    </div>
     </footer>
 
     <!-- Lightbox Modal -->
     <div class="lightbox" id="lightbox">
-        <span class="lightbox-close" id="lightbox-close">&times;</span>
-        <img src="" alt="Full view" class="lightbox-img" id="lightbox-img">
+    <span class="lightbox-close" id="lightbox-close">&times;</span>
+    <img src="" alt="Full view" class="lightbox-img" id="lightbox-img">
     </div>
 
     <!-- JavaScript -->
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            
-            // 1. Mobile Menu Toggle
-            const hamburger = document.getElementById('hamburger');
-            const navLinks = document.getElementById('nav-links');
-            const links = document.querySelectorAll('.nav-links li');
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        // 1. Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        const links = document.querySelectorAll('.nav-links li');
 
-            hamburger.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-                // Animate hamburger icon change if desired
-            });
+        hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        // Animate hamburger icon change if desired
+        });
 
-            // Close menu when a link is clicked
-            links.forEach(link => {
-                link.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                });
-            });
+        // Close menu when a link is clicked
+        links.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+        });
 
-            // 2. Scroll Animation (Intersection Observer)
-            const revealElements = document.querySelectorAll('.reveal');
+        // 2. Scroll Animation (Intersection Observer)
+        const revealElements = document.querySelectorAll('.reveal');
 
-            const revealObserver = new IntersectionObserver((entries, observer) => {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('active');
